@@ -1,0 +1,108 @@
+style.css Details Activity Approvals * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: #F9F6F0;
+}
+main {
+  margin: 90px;
+}
+h1 {
+  font-weight: 900;
+}
+h2 {
+  font-weight: 700;
+  background-color: #EEE5D3;
+}
+h3 {
+  font-weight: 600;
+}
+p {
+  font-weight: 400;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: #EEE5D3;
+  width: 100%;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+.nav-link {
+  margin: 0rem 1rem;
+}
+
+.pfp-img {
+  max-width: 100%;
+}
+.profile-link {
+  text-decoration: none;
+  color: #f2825f;
+}
+.profile-link:hover {
+  color: #4081e9;
+}
+
+.projects-img {
+  max-width: 100%;
+}
+.projects-link {
+  text-decoration: none;
+  color: #f2ebdd;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.projects-link:hover {
+  filter: brightness(0.85);
+}
+.pl1 {
+  background-color: #8390fa;
+}
+.pl2 {
+  background-color: #049A8F;
+}
+.pl3 {
+  background-color: #f88dad;
+}
+.pl4 {
+  background-color: #fac748;
+}
+
+.artwork-img {
+  max-height: 90vh;
+  max-width: 100%;
+  display: block;
+  margin: 3rem auto;
+}
+.mobile-wireframe-img {
+  max-width: 100%;
+  display: block;
+  margin: 3rem auto;
+}
+.desktop-wireframe-img {
+  max-width: 100%;
+  display: block;
+  margin: 3rem auto;
+}
+.two-artwork {
+  justify-content: center;
+}
+.two-artwork-img {
+  max-height: 90vh;
+  max-width: 100%;
+  margin: 3rem auto;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
